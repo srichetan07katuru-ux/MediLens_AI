@@ -71,7 +71,7 @@ with tab1:
                 st.error(f"⚠️ Analysis Complete: High Risk Profile detected for Age {age}.")
                 st.info("💡 Recommendation: Comprehensive cardiovascular diagnostics suggested.")
             else:
-                st.success(f"✅ Analysis Complete: Low/Moderate Risk Profile for Age {age.")
+                st.success(f"✅ Analysis Complete: Low/Moderate Risk Profile for Age {age}.")
                 st.info("💡 Plain English Summary: Your vitals sit within standard operational deviations.")
         else:
             st.error("Cannot perform prediction because model or scaler files are missing.")
